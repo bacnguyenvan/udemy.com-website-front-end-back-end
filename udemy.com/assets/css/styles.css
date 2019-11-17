@@ -19,14 +19,44 @@ a{
 	cursor: pointer;
 }
 /*header*/
-.search_content i {
-    background: #df322f;
-    padding: 11px;
-    color: white;
-    border-radius: 4px;
-    margin-left: -10px;
-    line-height: 17px;
+.menu_main {
+    position: absolute;
+    top: 23px;
+    width: 75%;
 }
+
+.menu_main >li>a {
+    color: #505763;
+}
+
+.search_content i {
+    padding: 14px;
+    color: #df322f;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.search_content i:hover{
+    background: #df322f;
+    color: white ;
+}
+.search_content input:focus{
+    background-color: white;
+    width: 100%;
+}
+.search_content {
+    background: #f2f3f5;
+    padding: 9px;
+    position: relative;
+}
+
+.search_content input {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
 .action-button{
 	color: #fff !important;
     background-color: #ec5252 !important;
@@ -74,6 +104,56 @@ a{
     color: #fff;
 }
 
+.background_text h3 {
+    color: white;
+    font-size: 40px;
+    
+}
+
+.background_text {
+    position: absolute;
+    left: 10%;
+    padding-top: 11%;
+    width: 34%;
+}
+
+.background_text p {
+    color: white;
+    font-size: 18px;
+}
+.search_course {
+    background: white;
+    max-width: 90%;
+    padding: 11px 17px;
+    font-size: 20px;
+    border-radius: 2px;
+    position: relative;
+}
+
+.search_course input {
+    border: none;
+    outline: none;
+    width: 70%;
+}
+.search_course span {
+   
+    height: 54px;
+    width: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    color: #ec5252;
+
+}
+.search_course span:hover{
+    color: white;
+    background: #ec5252;
+}
+
 /*slide cart*/
 .cart {
     width: 228px;
@@ -94,6 +174,9 @@ a{
 .card-body{
 	position: relative;
 } 
+.card-title{
+    height: 40px;
+}
 .card-img-top{
     height: 135px;
 }
@@ -295,7 +378,9 @@ a#prev:hover,a#next:hover{
     opacity: 1;
     visibility: visible;
 }
-
+.form_message input{
+    cursor: pointer;
+}
 .tags label {
     background: #5cb85c;
     color: #fff;
@@ -303,6 +388,7 @@ a#prev:hover,a#next:hover{
     font-size: 10px;
     border-radius: 3px;
     display: none;
+    cursor: pointer;
 }
 
 .tags label:after {
@@ -319,3 +405,5 @@ a#prev:hover,a#next:hover{
 #check3:checked ~ .tags label[for="check3"] { display: inline; }
 
 /**/
+
+/*part 2*/
