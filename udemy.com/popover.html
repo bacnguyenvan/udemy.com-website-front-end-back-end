@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	 <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+	 <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400|Roboto:300,400,700">
+    
+    <!-- font awesome -->
+    <link rel="stylesheet" href="fontawesome-free-5.11.2/css/all.css" />
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+	
+	<style type="text/css">
+		.popover_content {
+		    width: 330px;
+		    background: white;
+		    padding: 15px;
+		}
+
+		.popover_sale_price {
+		   
+		    font-size: 10px;
+		    font-weight: 900;
+		    background: #f4c150;
+		    color: #29303b;
+			border-radius: 4px;
+		    padding: 1px 14px;
+
+		    display: inline-block;
+		    position: relative;
+		}
+		.popover_sale_price:after {
+		    content: '';
+		    background: #f4c150;
+		    width: 12px;
+		    height: 12px;
+		    position: absolute;
+		    transform: rotate(45deg);
+		    right: -5px;
+		    top: 2px;
+		}
+		.popover_sell span {
+		    font-size: 13px;
+		    margin-left: 10px;
+		}
+		.popover_time span {
+		    font-size: 14px;
+		    margin-right: 10px;
+		}
+		.course_name{
+			color: black;
+			font-size: 20px;
+			font-weight: 600;
+
+		}
+		.course_name:hover{
+			color:black;
+			text-decoration: underline;
+		}
+		ul.popover_content_benefit {
+		    padding-left: 18px;
+
+		}
+
+		ul.popover_content_benefit li {
+		    font-size: 14px;
+		    color: #a09c9c;
+		    padding-bottom:8px;
+		}
+		a.btn_add_to_cart {
+		    background: #ec5252;
+		    padding: 15px 80px;
+		    color: white;
+		    font-weight: 500;
+		}
+		.add_to_cart i {
+		    color: #ec5252;
+		    font-size: 30px;
+		    margin-left: 15px;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="container bg-primary">
+			
+			<div class="popover_content">
+				<small>Last updated : 11/2019</small>
+				<div class="">
+					<a class="course_name" href="#">Lập trình Arduino cho người bắt đầu</a>
+				</div>
+				
+				<div class="popover_sell mb-2">
+					<div class="popover_sale_price">BESTSELLER</div>
+					<span>in 
+						<a href="#">Comunication Skills</a>
+						| Bussiness
+					</span>
+				</div>
+				<div class="popover_time mb-3">
+					<span>
+						<i class="fa fa-play-circle"></i>
+						550 lectures
+					</span>
+					<span>
+						<i class="fa fa-clock"></i>
+						29 hours
+					</span>
+					<span>
+						<i class="fab fa-artstation"></i>
+						All levels &nbsp; <i class="fa fa-closed-captioning"></i>
+					</span>
+					
+				</div>
+				<p>Communication Skills for Persuasion, Assertiveness and all Business Communication Needs</p>
+				<ul class="popover_content_benefit mb-4">
+					<li>Communicate confidently in all business and personal situations</li>
+					<li>Communicate in an understandable manner</li>
+					<li>Communicate in a memorable way</li>
+				</ul>
+				<div class="add_to_cart">
+					
+					<a href="#" class="btn_add_to_cart">Add to cart</a>
+					<i class="far fa-heart"></i>
+				
+
+				</div>
+			</div>
+	</div>
+	
+
+	<script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+   
+</body>
+</html>
