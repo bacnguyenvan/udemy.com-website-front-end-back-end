@@ -118,7 +118,7 @@ ul:not(.popover_content_benefit){
     position: absolute;
     left: 10%;
     padding-top: 11%;
-    width: 34%;
+    width: 40%;
 }
 
 .background_text p {
@@ -137,7 +137,7 @@ ul:not(.popover_content_benefit){
 .search_course input {
     border: none;
     outline: none;
-    width: 70%;
+    width: 90%;
 }
 .search_course span {
    
@@ -236,7 +236,7 @@ ul:not(.popover_content_benefit){
 /*course filter*/
 .course_filter{
     
-    height: 400px;
+    height: 380px;
     margin: 40px auto;
     display: flex;
     width: 1120px;
@@ -261,13 +261,13 @@ ul.filter_content {
     padding: 0;
     border-bottom: 1px solid #ddd;
     margin-bottom: 35px;
-    line-height: 35px;
     margin-left: 15px;
 }
 
 
 
 ul.filter_content li {
+    line-height: 50px;
     display: inline-block;
 }
 .active_filter{
@@ -808,6 +808,9 @@ a.btn_add_to_cart {
     font-size: 30px;
     margin-left: 15px;
 }
+.account_login{
+    padding:10px 2px;
+}
 
 /*reponsive*/
 @media screen and (max-width: 1344px) {
@@ -855,6 +858,13 @@ a.btn_add_to_cart {
     .background_text p{
         font-size: 15px;
     }
+    .background_text{
+        width: 70%;
+        
+    }
+    .search_course input{
+        font-size: 18px;
+    }
     
 }
 
@@ -871,6 +881,10 @@ a.btn_add_to_cart {
     }
     .option_language{
         width: 100%;
+    }
+    .sale_bottom{
+        height: 290px;
+        overflow-y: visible;
     }
 }
 @media screen and (max-width: 1000px) {

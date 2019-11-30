@@ -1,0 +1,3 @@
+login trang admin : http://localhost/udemy.com/admin
+email : admin@gmail.com
+password : admin

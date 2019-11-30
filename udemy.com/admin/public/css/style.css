@@ -1,0 +1,12 @@
+label.error{
+	color: red;
+}
+input.form-control.error{
+	border : 1px solid red;
+}
+.container.center{
+	width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding: 20px;
+}
