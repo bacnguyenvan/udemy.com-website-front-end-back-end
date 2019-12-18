@@ -12,7 +12,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no user-scalable=no">
     <title>udemy</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
@@ -34,7 +34,70 @@
     </div>
     <div >
         <nav class="navbar navbar-expand-md bg-light navigation-clean-button">
-            <div class="container-fluid"><a class="navbar-brand" href="index.php"><img src="assets/img/logo1.png"> </a><button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="container-fluid">
+                <div class="toggle_menu">
+                    <i class="fa fa-bars"></i>
+
+                    <div class="toggle_menu_content">
+                        <ul>
+                            <li class="menu_toggle_dropdown">
+                                <a href="#">All Development
+                                <i class="fa fa-angle-right"></i></a>
+
+                                <ul class="menu_toggle_dropdown_content">
+                                   
+                                    <li>
+                                        <a href="load-course.php?value=1">Arduino</a>
+                                    </li>
+                                    <li>
+                                        <a href="load-course.php?value=2">Arm</a>
+                                    </li>
+                                    <li>
+                                        <a href="load-course.php?value=3">Lập trình C/C++</a>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">All Business
+                                <i class="fa fa-angle-right"></i></a>
+                            </li>
+
+                           
+                            <li>
+                                <a href="#">  
+                                    Data Science
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">  
+                                    Mobile Apps
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">  
+                                    Programming Languges
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">  
+                                    Databases
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">  
+                                    Software Testing
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </li>    
+                        </ul>
+                    </div>
+                </div>
+                <a class="navbar-brand" href="index.php"><img src="assets/img/logo1.png"> </a>
                 <div class="collapse navbar-collapse"
                     id="navcol-1">
                     <ul class="nav navbar-nav menu_main">

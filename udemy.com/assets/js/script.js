@@ -136,7 +136,7 @@ $(document).ready(function(){
             if (!$(".popover:hover").length) {
                 $(_this).popover("hide");
             }
-        }, 300);
+        }, 80);
 	});
 
 
@@ -226,7 +226,7 @@ $(document).ready(function(){
 		            if (!$(".popover:hover").length) {
 		                $(_this).popover("hide");
 		            }
-		        }, 300);
+		        }, 80);
 			});
 
         });
@@ -311,7 +311,7 @@ $(document).ready(function(){
 		            if (!$(".popover:hover").length) {
 		                $(_this).popover("hide");
 		            }
-		        }, 300);
+		        }, 80);
 			});
 			
 		})
@@ -385,6 +385,21 @@ $(document).ready(function(){
 	$('#not_account').click(function(){
 		$('#modal_login').modal('hide');
 	})
-	  
+
+	// toggle menu
+	$('.toggle_menu').click(function(){
+
+		$(this).children('.toggle_menu_content').css("left","-16px");
+		// $('body').css("overflow","hidden");
+		
+	})
+	$('.background_fade').click(function(){
+        $('.toggle_menu_content').css("left","-276px");
+        // $('body').css("overflow","auto"); 
+    });  
+
+    $('.menu_toggle_dropdown').click(function(){
+    	$('.menu_toggle_dropdown_content').slideToggle(800);
+    })
 });
     
