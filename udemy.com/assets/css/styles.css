@@ -422,8 +422,7 @@ a#prev:hover,a#next:hover{
   border-image-source: linear-gradient(to left,#EC5252,#6E1A52);
   border-image-slice: 1;
 }
-.recommendation-info {
-}
+
 .text-middle {
   justify-content: space-evenly;
   align-items: center;
@@ -956,4 +955,67 @@ a.btn_add_to_cart {
     .toggle_menu{
         display: block;
     }
+}
+.owl-reviews {
+    display: flex;
+    /* position: relative; */
+}
+.owl-carousel .owl-nav .owl-prev:before{
+    /* fa-chevron-left */
+    font-family: "fontAwesome";
+    content: "\f053";
+    margin-right: 5px;
+    color: #007791;
+}
+.owl-carousel .owl-nav .owl-next:after{
+    font-family: "fontAwesome";
+    /* fa-chevron-right */
+    content: "\f054";
+    color: #007791;
+    /* margin-right: 10px; */
+}
+.owl-carousel .owl-nav .owl-prev {
+    background: #fff !important;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    box-shadow: 1px 1px 2px 2px #bbb;
+    color: #007791;
+    font-size: 20px;
+    opacity: .5;
+    transition: 0.3s all;
+}
+.owl-carousel .owl-nav .owl-prev:hover { 
+    box-shadow: 1px 1px 6px 2px #bbb;
+    opacity: 1
+}
+
+.owl-carousel .owl-nav .owl-next {
+    background: #fff !important;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    box-shadow: 1px 1px 2px 2px #bbb;
+    color: #007791;
+    font-size: 20px;
+    opacity: .5;
+    transition: 0.3s all;
+}
+.owl-carousel .owl-nav .owl-next:hover { 
+    box-shadow: 1px 1px 6px 2px #bbb;
+    opacity: 1;
+}
+
+.img-top-card {
+    height: 75px;
+    width: 75px !important;
+    border-radius: 50%;
 }

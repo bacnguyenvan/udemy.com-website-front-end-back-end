@@ -26,17 +26,17 @@ $(document).ready(function(){
 	// show message
     $('.btn_ok').click(function(){
         $('.bt_content').removeClass('hienra');
-         $('.background_fade').removeClass('mo');
+        $('.background_fade').removeClass('mo');
     });
     $('.background_fade').click(function(){
         $('.bt_content').removeClass('hienra');
-         $('.background_fade').removeClass('mo');
+        $('.background_fade').removeClass('mo');
     });
     
     
     // change background when focus input
     $('.search_content input').focusin(function(){
-    	$(this).parent().css({'background':'white','border':'1px solid #ddd'});
+			$(this).parent().css({'background':'white','border':'1px solid #ddd'});
     });
 
 
@@ -390,16 +390,39 @@ $(document).ready(function(){
 	$('.toggle_menu').click(function(){
 
 		$(this).children('.toggle_menu_content').css("left","-16px");
-		// $('body').css("overflow","hidden");
+		$('.background_fade').addClass('mo');
 		
 	})
 	$('.background_fade').click(function(){
         $('.toggle_menu_content').css("left","-276px");
-        // $('body').css("overflow","auto"); 
+        
     });  
 
     $('.menu_toggle_dropdown').click(function(){
     	$('.menu_toggle_dropdown_content').slideToggle(800);
-    })
+		})
+		$('.owl-reviews').owlCarousel({
+			loop:true,
+			margin:10,
+			nav:true,
+			navText : ["",""],
+			rewindNav : true,
+			responsive:{
+					0:{
+							items:1
+					},
+					600:{
+							items:2
+					},
+					1000:{
+							items:3
+					}
+			},
+			autoplay: true,
+			autoplayTimeout: 5000
+	})
+
+
+		
 });
     
