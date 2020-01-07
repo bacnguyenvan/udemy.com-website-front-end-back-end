@@ -1,3 +1,5 @@
+hướng dẫn add file sql
+tạo db với tên là : udemy rồi add file udemy.sql
 login trang admin : http://localhost/udemy.com/admin
 email : admin@gmail.com
 password : admin
