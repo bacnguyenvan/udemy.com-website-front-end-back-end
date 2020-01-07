@@ -1,5 +1,7 @@
-hướng dẫn add file sql
-tạo db với tên là : udemy rồi add file udemy.sql
+hướng dẫn 
+add file sql: tạo db tên phpmyadmin mysql với tên là : udemy rồi add file udemy.sql
+trang chủ : http://localhost/udemy.com/
 login trang admin : http://localhost/udemy.com/admin
 email : admin@gmail.com
 password : admin
+
